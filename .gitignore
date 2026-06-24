@@ -5,6 +5,10 @@ __pycache__/
 .env
 .DS_Store
 
+# Local tooling + temp download/build scratch (not part of submission)
+.claude/
+.dl/
+
 # Models — large, downloaded from Hugging Face. Manifest is committed.
 models/*
 !models/active.json
